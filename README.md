@@ -62,7 +62,7 @@ To improve accuracy, a linear calibration model was derived:
 
 ## Problem Solving Process
 
-**Full list of challenges and solutions:** → [Problems & Solutions]()
+**Full list of challenges and solutions:** [Problems & Solutions]()
 
 **Example of handwritten notes:** 
 ![]()
