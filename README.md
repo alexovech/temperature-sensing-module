@@ -1,1 +1,1 @@
-# temperature-sensing-module
+# Greenhouse Monitoring System – Temperature Sensing Module
