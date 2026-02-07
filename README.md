@@ -57,7 +57,7 @@ To improve accuracy, a linear calibration model was derived:
 ![](docs/images/code_temp.png)
 
 `The ADC value is read and converted to the amplifier output voltage using a measured reference voltage.`  
-`Next, the inverse gain and offset are applied to reconstruct the equivalent LM35 sensor voltage. ` 
+`Next, the inverse gain and offset are applied to reconstruct the equivalent LM35 sensor voltage.`   
 `Finally, the calibrated linear model is used to convert the sensor voltage into a temperature value.`
 
 ## Problem Solving Process
