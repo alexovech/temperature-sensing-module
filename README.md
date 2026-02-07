@@ -15,3 +15,15 @@ The project consists of two stages: a standalone temperature sensing module and 
 - **Technology:** Arduino, LM35 temperature sensor, LM741 operational amplifier, Resistors, OLED display, LEDs.
 - **Simulation:** Analog part designed in [Multisim](); Enclosure model designed in [Autodesk Fusion 360]().
 - **Language:** C/C++ (Arduino).
+
+---
+
+# Stage 1 - Temperature Sensor
+
+## Problem Statement
+
+The LM35 temperature sensor provides a low-level output (~10 mV/°C).  
+The Arduino ADC operates over a much higher voltage range:from 3 V to 5 V.  
+Such a small sensor voltage results in poor ADC resolution and reduced measurement accuracy.  
+To obtain valid and reliable temperature readings, the signal must be shifted and amplified into a suitable voltage range.  
+This is achieved using LM741 operational amplifiers and resistive networks.
