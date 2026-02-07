@@ -28,7 +28,7 @@ Such a small sensor voltage results in poor ADC resolution and reduced measureme
 To obtain valid and reliable temperature readings, the signal must be shifted and amplified into a suitable voltage range.  
 This is achieved using LM741 operational amplifiers and resistive networks.
 
-![](graph)
+![](docs/images/graph.png)
 
 ## Design Demonstration
 
