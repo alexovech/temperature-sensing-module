@@ -66,3 +66,7 @@ To improve accuracy, a linear calibration model was derived:
 
 **Example of handwritten notes:** 
 ![]()
+
+---
+
+# Stage 2 — System Integration & Enclosure
