@@ -52,6 +52,7 @@ To improve accuracy, a linear calibration model was derived:
 
 ➡️ [View detailed calibration process here](docs/hand_notes)
 
+
 **Arduino Code**
 ![]()
 
