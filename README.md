@@ -27,3 +27,18 @@ The Arduino ADC operates over a much higher voltage range:from 3 V to 5 V.
 Such a small sensor voltage results in poor ADC resolution and reduced measurement accuracy.  
 To obtain valid and reliable temperature readings, the signal must be shifted and amplified into a suitable voltage range.  
 This is achieved using LM741 operational amplifiers and resistive networks.
+
+![](graph)
+
+## Design Demonstration
+
+**Hardware Implementation**
+
+![]()
+
+
+**Circuit in Multisim**
+
+![]()
+
+`Highlighted input and output voltage levels confirm correct signal conditioning before ADC conversion.`
