@@ -50,7 +50,7 @@ To improve accuracy, a linear calibration model was derived:
 
 `T = (Vsens − 0.051) / 0.008`
 
-➡️ [View detailed calibration process here](docs/hand_notes)  
+➡️ [View detailed calibration process here](docs/calibration.md)  
 
 
 **Arduino Code**
@@ -62,7 +62,7 @@ To improve accuracy, a linear calibration model was derived:
 
 ## Problem Solving Process
 
-**Full list of challenges and solutions:** [Problems & Solutions]()
+**Full list of challenges and solutions:** [Problems & Solutions](docs/problems_solutions.md)
 
 **Example of handwritten notes:** 
 ![]()
