@@ -13,7 +13,7 @@ The project consists of two stages: a standalone temperature sensing module and 
 - **Skills Developed:** Designing operational amplifier circuit, sensor calibration and parameter identification, embedded system implementation in Arduino, 3D CAD modelling.
 - **Features:** OpAmp-based gain and offset correction, Arduino ADC inverse mapping, sensor error detection, custom 3D-printed enclosure.
 - **Technology:** Arduino, LM35 temperature sensor, LM741 operational amplifier, Resistors, OLED display, LEDs.
-- **Simulation:** Analog part designed in [Multisim](); Enclosure model designed in [Autodesk Fusion 360]().
+- **Simulation:** Analog part designed in [Multisim](schematic/multisim); Enclosure model designed in [Autodesk Fusion 360](schematic/cad).
 - **Language:** C/C++ (Arduino).
 
 ---
