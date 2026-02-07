@@ -50,7 +50,7 @@ To improve accuracy, a linear calibration model was derived:
 
 `T = (Vsens − 0.051) / 0.008`
 
-➡️ [View detailed calibration process here](docs/hand_notes)
+➡️ [View detailed calibration process here](docs/hand_notes)  
 
 
 **Arduino Code**
@@ -64,5 +64,5 @@ Finally, the calibrated linear model is used to convert the sensor voltage into 
 
 **Full list of challenges and solutions:** → [Problems & Solutions]()
 
-**Example of handwritten notes** 
+**Example of handwritten notes:** 
 ![]()
