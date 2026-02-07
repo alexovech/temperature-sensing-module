@@ -42,3 +42,26 @@ This is achieved using LM741 operational amplifiers and resistive networks.
 ![]()
 
 `Highlighted input and output voltage levels confirm correct signal conditioning before ADC conversion.`
+
+## Calibration & Arduino Processing
+
+At temperature extremes, the LM35 sensor output may deviate from its ideal linear behaviour, resulting in measurement offsets and scaling errors.  
+To improve accuracy, a linear calibration model was derived:
+
+`T = (Vsens − 0.051) / 0.008`
+
+➡️ [View detailed calibration process here](docs/hand_notes)
+
+**Arduino Code**
+![]()
+
+The ADC value is read and converted to the amplifier output voltage using a measured reference voltage.  
+Next, the inverse gain and offset are applied to reconstruct the equivalent LM35 sensor voltage.  
+Finally, the calibrated linear model is used to convert the sensor voltage into a temperature value.
+
+## Problem Solving Process
+
+**Full list of challenges and solutions:** → [Problems & Solutions]()
+
+**Example of handwritten notes** 
+![]()
