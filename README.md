@@ -54,7 +54,7 @@ To improve accuracy, a linear calibration model was derived:
 
 
 **Arduino Code**
-![]()
+![](docs/images/code_temp.png)
 
 The ADC value is read and converted to the amplifier output voltage using a measured reference voltage.  
 Next, the inverse gain and offset are applied to reconstruct the equivalent LM35 sensor voltage.  
