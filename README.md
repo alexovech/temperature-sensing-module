@@ -47,7 +47,7 @@ This is achieved using LM741 operational amplifiers and resistive networks.
 
 At temperature extremes, the LM35 sensor output may deviate from its ideal linear behaviour, resulting in measurement offsets and scaling errors. 
 
-To improve accuracy, a linear calibration model was derived:
+To improve accuracy, a linear calibration model was derived:  
 `T = (Vsens − 0.051) / 0.008`
 
 ➡️ [View detailed calibration process here](docs/hand_notes)
