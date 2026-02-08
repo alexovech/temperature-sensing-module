@@ -98,9 +98,7 @@ When an error condition is detected, a corresponding LED indicator is activated 
 A custom enclosure was designed to house the Arduino, breadboard, OLED display, buzzer, and supporting circuitry.  
 The enclosure was modelled in Autodesk Fusion 360 taking into account all components parameters to be correctly implemented into model design.  
 One of the distinctive features is a latch mechanism incorporated for easy access for maintenance or debugging.
-
 ![](docs/images/3d_model.png)
 
 The final design was manufactured using 3D printing and assembled as a complete physical system.
-
 ![](docs/images/real_model.png)
