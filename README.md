@@ -91,4 +91,12 @@ When an error condition is detected, a corresponding LED indicator is activated 
 **Temperature error detection snippet**
 ![](docs/images/snippet_error.png)
 
-➡️ [View detailed error detection implementation for each sensor](docs/calibration.md)  
+➡️ [View detailed error detection implementation for each sensor](docs/calibration.md) 
+
+## Enclosure Design & Manufacturing
+
+A custom enclosure was designed to house the Arduino, breadboard, OLED display, buzzer, and supporting circuitry.  
+The enclosure was modelled in Autodesk Fusion 360 with component dimensions and cable routing taken into account.  
+One of the distinctive features is a latch mechanism incorporated to allow easy opening and closing for maintenance and debugging.  
+The final design was manufactured using 3D printing and assembled as a complete physical system.
+
