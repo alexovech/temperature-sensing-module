@@ -39,7 +39,7 @@ This is achieved using LM741 operational amplifiers and resistive networks.
 
 **Circuit in Multisim**
 
-![]()
+![](docs/images/offset_gain.png)
 
 `Highlighted input and output voltage levels confirm correct signal conditioning before ADC conversion.`
 
