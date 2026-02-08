@@ -34,7 +34,7 @@ This is achieved using LM741 operational amplifiers and resistive networks.
 
 **Hardware Implementation**
 
-![]()
+![](docs/images/hardware_circuit.png)
 
 
 **Circuit in Multisim**
