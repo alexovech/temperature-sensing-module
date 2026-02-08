@@ -12,3 +12,11 @@ The importance of this device is to ensure that plants have the best possible en
 - The Light sensor was to ensure the light in the greenhouse was at acceptable levels.
 - The Temperature sensor was to ensure the temperature was not high or too low so the plants can grow properly.
 - The Motion sensor was for security so that anyone approaching the greenhouse at a certain proximity has an alarm sound off when they get too close.
+
+---
+
+## Temperature Sensor
+
+The principle of working temperature sensor includes converting the measured temperature into a proportional voltage output of approximately 10 mV/°C. To better understand and validate this behaviour, a simplified model of the temperature sensor was created. However, due to modelling limitations in Multisim, the sensor behaviour could only be reproduced using operational amplifiers.
+
+![]()
