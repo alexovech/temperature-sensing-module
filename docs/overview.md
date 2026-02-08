@@ -19,4 +19,4 @@ The importance of this device is to ensure that plants have the best possible en
 
 The principle of working temperature sensor includes converting the measured temperature into a proportional voltage output of approximately 10 mV/°C. To better understand and validate this behaviour, a simplified model of the temperature sensor was created. However, due to modelling limitations in Multisim, the sensor behaviour could only be reproduced using operational amplifiers.
 
-![]()
+![](images/sensor.png)
