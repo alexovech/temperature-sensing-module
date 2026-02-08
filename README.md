@@ -77,3 +77,16 @@ Each sensor processing block is integrated into a single Arduino `loop()` and or
 Each block includes signal acquisition, conversion to physical units, and their own error detection function.
 
 ![](docs/images/multi_sensors.png)
+
+## Hardware Error Detection
+
+In real-world applications, sensor readings may become unreliable due to hardware-related issues.
+These issues include disconnected sensors, short circuits, sudden signal changes caused by noise,
+or a sensor becoming stuck at a constant value.
+
+Instead of embedding error checks directly into the main logic, dedicated error-detection functions
+were created for each sensor type.
+When an error condition is detected, a corresponding LED indicator is activated to provide visual feedback.
+
+**Temperature error detection snippet**
+![](docs/images/snippet_error.png)
