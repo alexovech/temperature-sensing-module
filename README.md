@@ -73,7 +73,6 @@ To improve accuracy, a linear calibration model was derived:
 
 ## Integration of Multiple Sensors
 
-Each sensor processing block is integrated into a single Arduino `loop()` and organised into clearly separated sections for each sensor.  
-This approach keeps the overall code structure clear and easy to follow.
+Each sensor processing block is integrated into a single Arduino `loop()` and organised into clearly separated sections for each sensor. This approach keeps the overall code structure clear and easy to follow.
 
 Each block includes signal acquisition, conversion to physical units, and error detection.
