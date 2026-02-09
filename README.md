@@ -102,3 +102,7 @@ One of the distinctive features is a latch mechanism incorporated for easy acces
 
 The final design was manufactured using 3D printing and assembled as a complete physical system.
 ![](docs/images/real_model.png)
+
+## Early System Demonstration
+
+![]()
