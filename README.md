@@ -105,4 +105,8 @@ The final design was manufactured using 3D printing and assembled as a complete 
 
 ## Early System Demonstration
 
-![](docs/images/result.gif)
+### First Sketch
+![](docs/images/result1.gif)
+
+### Second Sketch
+![](docs/images/result2.gif)
