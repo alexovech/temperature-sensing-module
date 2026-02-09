@@ -65,7 +65,8 @@ To improve accuracy, a linear calibration model was derived:
 **Full list of challenges and solutions:** [Problems & Solutions](docs/problems_solutions.md)
 
 **Example of handwritten notes:** 
-![]()
+![](docs/images/note1.png)
+![](docs/images/note2.png)
 
 ---
 
