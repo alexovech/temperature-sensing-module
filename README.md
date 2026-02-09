@@ -53,7 +53,7 @@ To improve accuracy, a linear calibration model was derived:
 ➡️ [View detailed calibration process here](docs/calibration.md)  
 
 
-**Arduino Code**
+**Arduino Code** ([View here](src/code_temp))   
 ![](docs/images/code_temp.png)
 
 `1. The ADC value is read and converted to the amplifier output voltage using a measured reference voltage.`  
