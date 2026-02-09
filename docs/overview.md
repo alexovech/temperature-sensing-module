@@ -4,6 +4,8 @@ This project is a Monitoring system for a greenhouse. The Monitoring device cont
 
 The importance of this device is to ensure that plants have the best possible environment to grow. Any faults will be detected and quickly warn the user. An encryption was applied to the display for security. A checksum function was also added so that the total value of all values given from readings was checked to see if it matched the machine's calculations.
 
+![](images/diagram.png)
+
 ---
 
 ## Roles of Sensors
