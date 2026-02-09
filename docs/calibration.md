@@ -19,4 +19,4 @@ Under these results, the sensor readings showed 0.85 V, i.e. 85 °C.
 
 Based on these results, a new linear relationship should be created, which will be used in the future to calibrate the sensor value to its ideal parameters. Excel was used to create the linear graph and obtain the linear equation. The accuracy of the temperature measurement module can be improved by making use of additional calibration points, a better operational amplifier, and a voltage reference.
 
-![]() 
+![](images/calibration.png) 
