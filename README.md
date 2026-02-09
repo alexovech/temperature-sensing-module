@@ -92,7 +92,6 @@ When an error condition is detected, a corresponding LED indicator is activated 
 **Temperature error detection snippet**
 ![](docs/images/snippet_error.png)
 
-➡️ [View detailed error detection implementation for each sensor](docs/calibration.md) 
 
 ## Enclosure Design & Manufacturing
 
