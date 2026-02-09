@@ -107,3 +107,27 @@ The final design was manufactured using 3D printing and assembled as a complete 
 
 ![](docs/images/result1.gif)
 
+## Future Improvements
+
+Although the current system meets all project requirements, several improvements could be implemented
+to further enhance functionality, reliability, and scalability.
+
+1. **Measurement Accuracy and Stability**
+   - Replace the LM741 with a modern rail-to-rail operational amplifier with low input offset and single-supply operation.
+   - This would eliminate the need for ±9 V supplies and reduce DC offset and bias current effects.
+
+2. **Extended Calibration and Temperature Compensation**
+   - Perform multi-point calibration across the temperature range instead of using only 0°C and 100°C reference points.
+   - Implement lookup-table or polynomial correction in Arduino to improve accuracy over a wider range.
+
+3. **Enhanced Error Detection**
+   - Introduce adaptive thresholds for noise detection instead of fixed limits.
+   - Automatically exclude invalid sensor readings from display and data transmission.
+   - Add error flag logging for post-processing and analysis in MATLAB.
+
+4. **Hardware and Enclosure Improvements**
+   - Optimise the enclosure design to improve thermal airflow around the temperature sensor.
+   - Add mounting points and cable strain relief for improved robustness and repeatable assembly.
+
+5. **System Functionality Expansion**
+   - Add wireless data transmission (Bluetooth or Wi-Fi) for remote monitoring and logging.
