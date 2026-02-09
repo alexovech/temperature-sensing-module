@@ -38,3 +38,19 @@ This discrepancy introduced a systematic scaling error in the computed sensor vo
 
 **Solution:**  
 The measured reference voltage value was used in the ADC conversion formula within the Arduino code, improving the accuracy of the reconstructed sensor voltage.
+
+
+---
+
+## Problem 5 — Resistor Interaction Between Offset and Gain Networks
+
+The offset generation network and the gain-setting network were not independent due to their shared connection to the ground reference. 
+The resistor responsible for generating the voltage offset formed a voltage divider that shared a common node with the resistor used in the amplification stage.
+Although one resistor was referenced to the real ground and the other to the virtual ground of the operational amplifier, both influenced the effective divider behaviour.
+
+As a result, the expected offset voltage was not achieved, as the gain resistor began to load the offset network and modify the resulting voltage level.
+Additionally, excessively large resistor values introduced further errors due to the input bias currents of the LM741 operational amplifier.
+
+**Solution:**  
+Resistor values were selected to balance minimal loading of the offset network and acceptable bias current effects.
+The final configuration used 20 kΩ and 200 kΩ resistors, providing stable offset generation while maintaining accurate gain and minimising bias-induced voltage errors.
